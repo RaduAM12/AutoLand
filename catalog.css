@@ -1,0 +1,78 @@
+div {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+}
+
+h1{
+    color: rgb(234, 163, 22);
+    font-size:50px;
+    font-weight: bold;
+    font-family: fantasy;
+    
+}
+.imagini{
+    width: 100px;
+    height: 100px; 
+    margin-right: 10px;
+    position: absolute;
+    left: 30px;
+    top: 14px;
+    border-radius: 60%;
+}
+
+.masini {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.masina {
+    width: 30%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.masina img {
+    width: 100%;
+}
+
+.masina h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.masina p {
+    margin: 5px 0;
+}
+
+.masina a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: none;
+    background-color: #4d36e0;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.masina a:hover {
+    background-color: #e1a326;
+}
+
+@media (max-width: 768px) {
+    .masina {
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 480px) {
+    .masina {
+        max-width: 100%;
+        margin: 10px 0;
+    }
+}

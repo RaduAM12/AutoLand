@@ -1,0 +1,77 @@
+div {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: blue;
+}
+
+h1{
+    color: rgb(234, 163, 22);
+    font-size:50px;
+    font-weight: bold;
+    font-family: fantasy;
+    
+}
+.imagini{
+    width: 100px;
+    height: 100px; 
+    margin-right: 10px;
+    position: absolute;
+    left: 30px;
+    top: 14px;
+    border-radius: 60%;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+}
+p{
+    text-align: center;
+    font-size: 21px;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+}
+
+h4{
+    text-align: center;
+    font-size: 40px;
+}
+h1, h2, h3, h4, p {
+    margin: 0;
+    padding: 20px;
+}
+
+body {
+    background-color: rgb(244, 185, 76);
+    margin: 0; 
+    padding: 0; 
+}
+
+
+body > div {
+    background-color: white;
+    padding-bottom: 20px; 
+}
+
+@media (max-width: 768px) {
+    section {
+        padding: 10px;
+    }
+    hr {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .header, section {
+        padding: 10px;
+    }
+    hr {
+        margin: 10px 0;
+    }
+}

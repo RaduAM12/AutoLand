@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calendar.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <title>Test Drive</title>
+</head>
+<body>
+    
+    <div style="background-color: rgb(14, 15, 56); text-align: center;">
+        <h1><img src="logo1.jpg" alt="Logo" class="imagini"> Test Drive</h1>
+    </div>
+    
+    <p id="message"></p>
+
+    <h1>Selectează o dată:</h1>
+        
+    <div id="calendar-container">
+        <!-- Elementul de input pentru calendar -->
+        <input type="text" id="calendar">
+    </div>
+    
+    <div id="nume-container" class="input-container">
+        <h2>Introdu numele:</h2>
+        <input type="text" id="nume" placeholder="Numele tău">
+    </div>
+
+    
+    <div id="telefon-container" class="input-container">
+        <h2>Introdu numărul de telefon:</h2>
+        <input type="text" id="telefon" placeholder="Numărul tău de telefon">
+    </div>
+    
+    
+    <div id="submit-container" class="input-container">
+        <button id="butonSubmit">Submit</button>
+    </div>
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+    <script src="calendar.js" type="module"></script>
+    
+
+</body>
+</html>
