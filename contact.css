@@ -76,10 +76,10 @@ body > div {
     }
 }
 footer {
-    background-color: #0e0f38; /* culoare similară cu bara de sus */
+    background-color: blue; /* culoare similară cu bara de sus */
     text-align: center;
     padding: 10px 0;
-    position: fixed;
+    position: center;
     bottom: 0;
     width: 100%;
 }
