@@ -76,12 +76,17 @@ body > div {
     }
 }
 footer {
-    background-color: blue; /* culoare similară cu bara de sus */
+    background-color: rgb(14, 15, 56); /* Aceeași culoare ca bara de sus */
     text-align: center;
     padding: 10px 0;
-    position: center;
+    position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
 }
 
 .footer-links a {
