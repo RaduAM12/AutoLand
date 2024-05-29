@@ -75,3 +75,21 @@ body > div {
         margin: 10px 0;
     }
 }
+footer {
+    background-color: #0e0f38; /* culoare similară cu bara de sus */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-links a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
