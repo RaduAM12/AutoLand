@@ -79,7 +79,7 @@ footer {
     background-color: rgb(14, 15, 56); /* Aceeași culoare ca bara de sus */
     text-align: center;
     padding: 7px 0;
-    position: fixed;
+    position: flex;
     bottom: 0;
     width: 70%;
 }
